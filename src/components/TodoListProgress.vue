@@ -13,7 +13,7 @@ export default {
   },
   computed: {
     completed() {
-      return this.$props.todos.filter(todo => !todo.checked).length
+      return 999;
     },
     unfinished() {
       return this.$props.todos.length - this.completed;
